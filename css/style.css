@@ -32,6 +32,7 @@
   border-radius: 5px;
   display: inline-block;
   text-align: center;
+  margin:50px 0;
 }
 
 .button-type-a {
@@ -40,7 +41,7 @@
 }
 
 .button-type-b {
-  background: orange;
+  background: #ff7a59;
   color: #fff;
 }
 
@@ -53,8 +54,9 @@ a {
   background-color: #fff;
   border-radius: 6px;
   border:2px solid white;
-  box-shadow: 2px 2px 5px black;
+  box-shadow: 2px 2px 5px lightgrey;;
 }
+
 
 /* end utility class */
 
@@ -169,34 +171,104 @@ main h1{
   font-size: 40px;
 }
 
-main p{
+main section{
   font-size: 20px;
   padding:20px 150px;
 }
 
-main .container {
-  height: 400px;
-}
-
-.first-line {
+.crm {
   width: 100%;
-  height: 100px;
   margin-top: 30px;
 }
 
+.crm-left{
+  width: 30%;
+}
 
+.crm-left .illustration{
+  width: 100%;
+}
+
+.crm .illustration img{
+  width: 35%;
+}
 .box-second-line{
   width: 100%;
-  height: 200px;
   margin-top: 30px;
+  padding:0 30px;
+  margin-bottom:30px;
 }
+
+.crm-left:last-child div{
+  margin-top:20px;
+}
+
+.crm-right {
+  width: 70%;
+  text-align: left;
+  padding: 40px 40px 40px 0;
+}
+
+.crm-right h2{
+  margin-bottom:25px;
+}
+
+.crm-right p{
+  margin-bottom:15px;
+}
+
+.popular-row{
+  width: 100%;
+  margin-bottom:10px;
+}
+.cmr-right h3{
+  display: inline-block;
+  font-size: 10px;
+}
+
+.crm-right .row{
+  width: 40%;
+  border:1px solid black;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left:30px;
+
+}
+
+.crm-right .lista {
+  height: 30px;
+  line-height: 30px;
+  padding-right: 50px;
+
+}
+.lista ul{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.lista > ul > li {
+  display: inline-block;
+  float: left;
+  padding-right:20px;
+}
+
+.lista i{
+  color:#ff7a59;
+  padding-right: 10px;
+}
+
 
 main .column {
   width: 33.3%;
+  text-align: center;
 }
 
 main .column.uno {
   padding-right: 10px;
+}
+
+.second-line-content h3 {
+  margin:30px 0;
 }
 
 main .column.due {
@@ -205,4 +277,51 @@ main .column.due {
 
 main .column.tre {
   padding-left: 10px;
+}
+
+.column-img {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  margin-bottom:30px;
+}
+
+.column-img img{
+  width:80px;
+  height: 60px;
+}
+
+.second-line-content h4{
+  padding-bottom: 50px;
+  border-bottom: 2px solid black;
+  font-weight: normal;
+}
+
+.popolar{
+  text-align: left;
+}
+
+.popolar i{
+  padding-right: 10px;
+  color:#ff7a59;
+}
+
+
+
+.stats-section {
+  width: 100%;
+  height: 400px;
+  background-color: #00baa7;
+  color:#fff;
+}
+
+.stats-section h2{
+  padding-top:50px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.stats-section h4{
+  font-size: 15px;
+  font-weight: normal;
 }
