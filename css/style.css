@@ -180,9 +180,10 @@ main h1{
   font-size: 40px;
 }
 
-main section{
-  font-size: 20px;
-  padding:20px 150px;
+main p{
+  font-size: 15px;
+  padding:15px 0;
+  text-align: left;
 }
 
 .crm {
@@ -223,6 +224,7 @@ main section{
 }
 
 .crm-right p{
+  font-size:15px;
   margin-bottom:15px;
 }
 
@@ -259,6 +261,7 @@ main section{
   display: inline-block;
   float: left;
   padding-right:20px;
+  font-size:15px;
 }
 
 .lista i{
@@ -304,6 +307,7 @@ main .column.tre {
   padding-bottom: 50px;
   border-bottom: 1px solid black;
   font-weight: normal;
+  font-size:15px;
 }
 
 .popolar{
@@ -324,7 +328,9 @@ main .column.tre {
   background:linear-gradient(45deg,#00a4bd,#00bda5);
   color:#fff;
 }
-
+.stacts-section .container{
+  width: 100%;
+}
 .stats-section h2{
   padding-top:50px;
   margin-bottom: 30px;
@@ -370,7 +376,6 @@ main .column.tre {
 
 .publish {
   width: 100%;
-  height: 300px;
   background-color: white;
 }
 
@@ -408,6 +413,7 @@ main .column.tre {
 
 .publish .publish-row-two {
   width: 100%;
+  background-color: white;
 }
 .row-two.left{
   width: 40%;
@@ -430,7 +436,7 @@ main .column.tre {
 }
 
 .row-two.right img{
-  width:45%;
+  width:40%;
   margin:0;
   position: absolute;
   top:0;
@@ -440,4 +446,96 @@ main .column.tre {
 .row-two.left h6{
   font-weight: normal;
   margin-top: 30px;
+}
+
+footer{
+  background-color: #2d3e50;
+}
+footer .container {
+  min-width: 1200px;
+
+}
+
+.column-footer {
+  width: 25%;
+  text-align: left;
+  margin-top:20px;
+  color: white;
+  margin-bottom:50px;
+}
+
+.column-footer ul {
+  list-style-type: none;
+  font-size:12px;
+  padding-top: 15px;
+}
+
+.column-footer li{
+  font-size: 12px;
+  margin-bottom:15px;
+}
+
+.column-footer li a{
+  color:white;
+}
+
+.column-footer .button.button-type-b {
+  font-size: 12px;
+  padding: 0 5px;
+  background-color: white;
+}
+
+.icons ul {
+  list-style-type: none;
+  display:inline-block;
+}
+
+.icons ul li {
+  display: inline-block;
+  float: left;
+  padding-right:20px;
+}
+
+.languages {
+  text-align: center;
+  border-bottom:1px solid white;
+}
+.languages ul{
+  list-style-type: none;
+  display:inline-block;
+  margin-bottom:15px;
+}
+
+.languages ul li {
+  display: inline-block;
+  float: left;
+  color:white;
+  padding-right:20px;
+  font-size:12px;
+}
+
+
+
+.copyright{
+  width: 100%;
+  height: 100px;
+  padding:20px 0;
+}
+
+
+.copyright h6{
+  color:white;
+}
+
+.copyright ul {
+  list-style-type: none;
+  display:inline-block;
+}
+
+.copyright ul li {
+  display: inline-block;
+  float: left;
+  padding-right:20px;
+  color:white;
+  font-size:13px;
 }
