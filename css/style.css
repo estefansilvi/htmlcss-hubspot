@@ -187,12 +187,12 @@ header .content1 {
 
 .contenuto h1 {
   font-size: 40px;
+  margin-bottom: 15px;
 }
 
 .contenuto p {
   font-size: 15px;
   padding: 2px 0;
-  text-align: left;
 }
 
 .crm {
@@ -389,15 +389,16 @@ header .content1 {
   text-align:center;
 }
 
-.row-one.left {
+.publish .publish-row-one .row-one.left {
   width:30%;
   padding:40px 30px;
 }
 
-.row-one.left h2 {
+.publish .publish-row-one .row-one.left h2 {
   font-size: 50px;
 }
-.row-one.left p {
+
+.publish .publish-row-one .row-one.left p {
   font-size:13px;
   font-weight:100;
   margin-top:15px;
@@ -405,12 +406,20 @@ header .content1 {
   text-align:left;
   padding-left:60px;
 }
-.row-one.right {
+
+.publish .publish-row-one .row-one.right {
   width:60%;
   padding-top:30px;
+  padding-bottom:30px;
   text-align:center;
 }
 
+
+.publish .publish-row-one .row-one.right .image {
+  width: 20%;
+  vertical-align: middle;
+
+}
 .container .row-one-right .img-loghi {
   width: 75%;
   margin:0;
@@ -423,25 +432,25 @@ header .content1 {
 }
 .row-two.left {
   width: 40%;
+  padding-bottom:140px;
   text-align: left;
 }
 
-.row-two.left h3 {
+.publish .publish-row-two .row-two.left h3 {
   font-size:30px;
   margin:30px 0;
 }
 
-.row-two.left p {
+.publish .publish-row-two .row-two.left p {
   line-height: 25px;
   margin-bottom:30px;
 }
-.row-two.right {
+.publish .publish-row-two .row-two.right {
   width:60%;
-  height: 400px;
   position: relative;
 }
 
-.row-two.right img {
+.publish .publish-row-two .row-two.right img {
   width:45%;
   margin:0;
   position: absolute;
@@ -449,7 +458,7 @@ header .content1 {
   right:0;
 }
 
-.row-two.left h6 {
+.publish .publish-row-two .row-two.left h6 {
   font-weight: normal;
   margin-top: 30px;
 }
